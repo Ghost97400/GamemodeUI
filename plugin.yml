@@ -1,0 +1,13 @@
+name: GamemodeUI
+main: ghost\GamemodeUI\GamemodeUI
+api: 4.0.0
+version: 1
+
+commands:
+  gmui:
+    description: "Open gamemodeUI"
+    permission: gmui.cmd
+
+permissions:
+  gmui.cmd:
+    default: op
