@@ -16,7 +16,6 @@ class GamemodeUI extends PluginBase implements Listener {
     public function onEnable(): void
     {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info("GamemodeUI Load");
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool

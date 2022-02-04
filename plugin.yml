@@ -11,3 +11,7 @@ commands:
 permissions:
   gmui.cmd:
     default: op
+
+
+depend:
+  - FormAPI
